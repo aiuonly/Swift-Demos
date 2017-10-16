@@ -33,7 +33,7 @@ class ViewController: UIViewController {
         tipResultLabel.text =  String(format: "%.2f", persentNum)
         
         tipLabel.text = "Tip(" + "\(Int(tipPersentSilder.value * 100))" + "%)"
-        
+    
         let totalNum = originNum! + persentNum
         totalResultLabel.text = String(format: "%.2f", totalNum)
     }
